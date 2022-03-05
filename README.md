@@ -56,9 +56,4 @@ function gitcurl() {
 
     curl -s --header "PRIVATE-TOKEN: $(gitlabToken)" "https://gitlab.corp.zulily.com/api/v4"$@
 }
-
-function gitlabToken() {
-    # created on 20200409
-    echo 'zgVzHaQrDsJtKuUSi9xP'
-}
 ```

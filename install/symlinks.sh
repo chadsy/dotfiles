@@ -19,6 +19,9 @@ ln -sf ${DOTFILES_HOME}/apps/garglk.ini ~/garglk.ini
 # NB: Notice the silly use of version in the filename :(
 ln -sf ${DOTFILES_HOME}/apps/dosboxconfig ~/Library/Preferences/DOSBox\ 0.74-3-3\ Preferences
 
+# ack beyondgrep config
+ln -sf ${DOTFILES_HOME}/apps/ackrc ~/.ackrc
+
 # ----------------------------------------------------------------------
 # Various CLI app launchers & helpers
 

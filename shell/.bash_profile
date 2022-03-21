@@ -3,6 +3,8 @@
 
 export DOTFILES_HOME=${HOME}/Dropbox/dotfiles
 export BREADCRUMBS=${DOTFILES_HOME}/.bashrc
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
 # export DEBUG_BASH=1
 
 if [ ! -z "$DEBUG_BASH" ]; then echo ${DOTFILES_HOME}/shell/.bash_profile; fi

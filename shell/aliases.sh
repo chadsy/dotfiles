@@ -11,10 +11,5 @@ alias l="ls -FG"
 # because i'm switching back & forth between this and old DOS & CP/M systems
 alias dir=ls
 
-###
-
-# ----------------------------------------------------------------------
-# docker stuff?
-# alias todock="cd ~/docker-local"
-# alias dock="docker-compose up -d "
-# alias undock="docker-compose down"
+# 'how' replaces my old 'where' from ms-dos
+alias how="type -a"
